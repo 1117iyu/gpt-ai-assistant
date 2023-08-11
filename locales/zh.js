@@ -107,7 +107,7 @@ const zh = {
   __ERROR_MAX_GROUPS_REACHED: '群組數量到達上限了',
   __ERROR_MAX_USERS_REACHED: '用戶數量到達上限了',
   __ERROR_MISSING_ENV: (v) => `缺少環境變數：${v}`,
-  __MESSAGE_NEW_VERSION_AVAILABLE: (version) => `請更新至最新版版`,
+  __MESSAGE_NEW_VERSION_AVAILABLE: (version) => ``,
   __SOURCE_NAME_SOME_GROUP: '某群組',
   __SOURCE_NAME_SOMEONE: '某用戶',
 };
