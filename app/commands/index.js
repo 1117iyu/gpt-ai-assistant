@@ -72,7 +72,6 @@ export const ALL_COMMANDS = [
 export const INFO_COMMANDS = [
   COMMAND_SYS_VERSION,
   COMMAND_SYS_DOC,
-  COMMAND_SYS_VERSION,
 ];
 
 export const GENERAL_COMMANDS = [
