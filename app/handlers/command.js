@@ -25,9 +25,6 @@ const exec = (context) => check(context) && (
       const buttons = [...INFO_COMMANDS];
       buttons.splice(0, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
       buttons.splice(2, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
-      buttons.splice(3, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
-      buttons.splice(4, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
-      buttons.splice(5, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
       context.pushTemplate(COMMAND_SYS_COMMAND.label, buttons, GENERAL_COMMANDS);
 
 
