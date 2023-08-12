@@ -16,7 +16,7 @@ class TemplateMessage extends Message {
     super();
     this.altText = text;
     this.template = {
-      type: TEMPLATE_TYPE_CAROUSEL,
+      type: TEMPLATE_TYPE_BUTTONS,
       text,
       actions: actions.map((action) => new MessageAction(action)),
     };
