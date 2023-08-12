@@ -23,7 +23,6 @@ const exec = (context) => check(context) && (
     updateHistory(context.id, (history) => history.erase());
     try {
       const buttons = [...INFO_COMMANDS];
-      buttons.splice(2, 0, context.source.bot.isActivated ? COMMAND_BOT_DEACTIVATE : COMMAND_BOT_ACTIVATE);
       context.pushTemplate(COMMAND_SYS_COMMAND.label, buttons, GENERAL_COMMANDS);
 
 
