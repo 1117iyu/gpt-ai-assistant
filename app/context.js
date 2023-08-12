@@ -230,7 +230,7 @@ class Context {
     if (!text) return this;
     const message = new TemplateMessage({
       text,
-      actions: carousel,
+      actions: buttons,
     });
     message.setQuickReply(actions);
     this.messages.push(message);
