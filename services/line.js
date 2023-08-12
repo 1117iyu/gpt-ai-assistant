@@ -15,6 +15,7 @@ export const MESSAGE_TYPE_IMAGE = 'image';
 export const MESSAGE_TYPE_TEMPLATE = 'template';
 
 export const TEMPLATE_TYPE_BUTTONS = 'buttons';
+export const TEMPLATE_TYPE_CAROUSEL = 'carousel';
 
 export const ACTION_TYPE_MESSAGE = 'message';
 export const ACTION_TYPE_POSTBACK = 'postback';
